@@ -1,0 +1,21 @@
+Git Setup
+linking a local Git user to Github, use..
+//git config --global user.name "Your Name"
+//git config --global user.email "yourname@example.com"
+
+
+For a colourful output with git use..
+//git config --global color.ui auto
+
+
+Create an SSH key
+This is a cryptographically secure identifier. It is used to identify your machine. 
+To check if you have an SSH key use..
+//ls ~/.ssh/id_rsa.pub
+
+To create a new SSH key use.. 
+//ssh-keygen -C <youremail>
+note do not include the angle brackets
+
+
+
