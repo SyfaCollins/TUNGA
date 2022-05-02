@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    border-bottom: 2px solid cadetblue;
+    
+}
+.nav-item{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-item > li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-item > li:hover{
+    border-bottom: 2px solid cadetblue;
+}
+
+
+.container{
+    margin-top: 2rem;
+}
+
+.footer{
+    height: auto;
+    padding: 2rem;
+    color: white;
+    margin-top: 10rem;
+    background-color: rgb(119, 111, 111);
+}
+
+span{
+    padding-right: .5rem;
+    height: 1rem;
+    border-right: 2px solid cadetblue;
+}
+
+.jokes{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.main > h1{
+
+    font-weight: bold;
+    
+}
+h4{
+    background-color: rgb(167, 167, 9);
+    padding: .5rem;
+   
+}
