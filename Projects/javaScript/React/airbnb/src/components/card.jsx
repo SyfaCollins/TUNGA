@@ -10,7 +10,9 @@ function Card({img,title,price,rating,reviews}) {
                 </div>
                 <div className="card-disc">
                 <span><img src='./images/star.png' className="card--rate" /> {rating} reviews:({reviews})</span>
+               
                 {/* <span>reviews:</span> */}
+
                 <h4>{title}</h4>
                 <p>Amount:<span>${price}</span></p>
                 </div>
