@@ -1,0 +1,68 @@
+.nav--bar{
+    background-color: rgb(253, 0, 97);
+    color: white;
+   justify-content: center;
+    border-radius: 8px 8px 0 0;
+    margin-top: 5px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    
+} 
+
+.nav--logo{
+    height: 30px;
+    margin: 10px;
+
+
+}
+
+.card--container{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    min-height: fit-content;
+
+}
+
+.card--img{
+    margin-right:2rem ;
+    height: auto;
+}
+
+
+.img{
+    width: 200px;
+    position: inherit;
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 400px;
+    word-break: break-all;
+}
+
+.info >
+h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info > p{
+    text-overflow: clip;
+    
+}
+
+a{
+    margin-left: 5px;
+}
+
+h3 > .project--number{
+font-size: 15px;
+background-color: rgb(194, 176, 176);
+}
